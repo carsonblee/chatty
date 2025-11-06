@@ -61,7 +61,7 @@ npm install
 
 #### 3. Set up your environment
 
-Create a .env file in the root directory:
+Create a `.env` file in the root directory:
 
 ```bash
 cp .env.example .env
@@ -86,11 +86,14 @@ Navigate to http://localhost:3000 on any browser to see your web app running loc
 
 ### Using the Chatbot
 
+
 1. Type your prompt in the text area
 2. Click the send button or press Enter
 3. Wait for the AI response
 4. View your conversation history below
 5. Click "Clear History" to start fresh
+
+![Chatty UI Demo](./Screenshots/Chatty%20UI%20Demo.png "Chatty UI Demo")
 
 ## Additional Information
 
