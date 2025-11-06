@@ -21,7 +21,6 @@ export async function POST(request: Request) {
     }
 
     const apiKey = process.env.OPENAI_API_KEY;
-    const apiEndpoint = process.env.API_ENDPOINT || 'https://api.openai.com/v1/chat/completions';
     const aiModel = process.env.MODEL || 'gpt-3.5-turbo';
 
     if (!apiKey) {
